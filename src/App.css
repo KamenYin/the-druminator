@@ -1,0 +1,47 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+h1{
+  font-size: 50px;
+}
+
+.container {
+  text-align: center;
+  margin:50px;
+}
+
+
+.whole-drum {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 50px auto;
+  width: min-content;
+}
+
+.drum-pad {
+  width: 120px;
+  height: 120px;
+  border: 5px solid  pink;
+  border-radius: 25px;
+  box-shadow: inset 4rem 4rem 4rem pink;
+  background-color: white;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  font-family: 'Creepster';
+  font-size: 25px;
+  color: indigo;
+
+}
+
+.drum-pad:active{
+  transform: translate(4px, 4px);
+}
+
+
+#display {
+  font-family: 'Creepster', 'sans-serif';
+  font-size: 25px; 
+}
+
